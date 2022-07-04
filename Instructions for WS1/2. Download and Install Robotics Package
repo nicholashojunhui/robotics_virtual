@@ -5,7 +5,7 @@ $ cd ~/catkin_ws/src
 
 2. Git Clone the Robotics package:
 
-$ git clone https://github.com/nicholashojunhui/robotics.git
+$ git clone https://github.com/nicholashojunhui/robotics_virtual.git
 
 3. Build the packages in the catkin workspace:
 
