@@ -2,10 +2,12 @@
 1. Navigate to /home/nicho/catkin_ws/src/open_manipulator_simulations/open_manipulator_gazebo/launch
 
 2. Copy and paste Project1.launch file here
+* See "Gazebo Setup Instructions and Files for OM" folder
 
 3. Navigate to /home/nicho/catkin_ws/src/open_manipulator_simulations/open_manipulator_gazebo/worlds
 
 4. Copy and paste Project1.world file here
+* See "Gazebo Setup Instructions and Files for OM" folder
 
 
 ################# Execution Guide #################
