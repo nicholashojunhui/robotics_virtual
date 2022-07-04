@@ -1,0 +1,13 @@
+Configuration of Robot Export in bash
+
+Since we are only dealing with TB3 burger, lets configure all exports of the TB3 model to burger. This will help us save time in typing export TURTLEBOT3_MODEL=burger
+
+1. Type in Terminal:
+
+$ gedit ~/.bashrc
+
+2. Scroll all the way down and copy paste “export TURTLEBOT3_MODEL=burger” at the last line.
+
+3. After which, save and exit. Type the command in the terminal:
+
+$ source ~/.bashrc
