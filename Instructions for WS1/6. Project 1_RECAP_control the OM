@@ -1,17 +1,25 @@
+################# Setup (if you have not done before) #################
+1. Navigate to /home/nicho/catkin_ws/src/open_manipulator_simulations/open_manipulator_gazebo/launch
+
+2. Copy and paste Project1.launch file here
+
+3. Navigate to /home/nicho/catkin_ws/src/open_manipulator_simulations/open_manipulator_gazebo/worlds
+
+4. Copy and paste Project1.world file here
+
 
 ################# Execution Guide #################
+1. Launch the Project1 world in Gazebo
 
-1. Open terminal in Ubuntu and run roscore
+$ roslaunch open_manipulator_gazebo Project1.launch
 
-$ roscore
 
-2. Prepare the setup for the OM: Connect the wires, switch on the power, and manually bring up the OM
+2. Press play and on another terminal, activate the controller
 
-3. On another terminal, activate the controller
+$ roslaunch open_manipulator_controller open_manipulator_controller.launch use_platform:=false
 
-$ roslaunch open_manipulator_controller open_manipulator_controller.launch
 
-4. On another terminal, ROSRUN your codes
+3. On another terminal, ROSRUN your codes
 
 $ rosrun robotics Project1.py
 
