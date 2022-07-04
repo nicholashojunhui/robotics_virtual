@@ -1,0 +1,5 @@
+Read Me to load Project1 world
+
+1. navigate to Home -> src -> open_manipulator_simulations -> open_manipulator_gazebo -> worlds; copy and paste the Project1.world file here
+2. navigate to Home -> src -> open_manipulator_simulations -> open_manipulator_gazebo -> launch; copy and paste the Project1.launch file here
+3. Type in terminal to launch the Project1 world: $ roslaunch open_manipulator_gazebo Project1.launch
