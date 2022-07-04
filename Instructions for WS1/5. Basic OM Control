@@ -1,19 +1,16 @@
 
 
-1. Open terminal in Ubuntu and run roscore
+1. Launch the world in Gazebo
 
-$ roscore
+$ roslaunch open_manipulator_gazebo open_manipulator_gazebo.launch
 
-After which, prepare the setup for the OM: Connect the wires, switch on the power, and manually bring up the OM
 
-***Note: If your port (e.g. ACM0) is denied permission, on new terminal type:
-	$ sudo chmod a+rw /dev/ttyACM0
+2. Press play and on another terminal, activate the controller
 
-2. On another terminal, activate the controller
-
-$ roslaunch open_manipulator_controller open_manipulator_controller.launch
+$ roslaunch open_manipulator_controller open_manipulator_controller.launch use_platform:=false
 
 ***You have to do Steps 1 and 2 first before you can control the virtual robot via the following various methods
+
 
 ############### ROS BASICS (For OM) ###############
 Open new terminal and try the following (one by one):
