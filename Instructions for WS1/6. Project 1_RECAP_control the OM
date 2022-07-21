@@ -1,7 +1,7 @@
 ################# Setup (if you have not done before) #################
 1. Navigate to /home/nicho/catkin_ws/src/open_manipulator_simulations/open_manipulator_gazebo/launch
 
-2. Copy and paste Project1.launch file here
+2. Copy and paste Project1.launch and Project11.launch files here
 * See "Gazebo Setup Instructions and Files for OM" folder
 
 3. Navigate to /home/nicho/catkin_ws/src/open_manipulator_simulations/open_manipulator_gazebo/worlds
@@ -14,6 +14,8 @@
 1. Launch the Project1 world in Gazebo
 
 $ roslaunch open_manipulator_gazebo Project1.launch
+
+If Project1.launch has errors, try Project11.launch
 
 
 2. Press play and on another terminal, activate the controller
